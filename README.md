@@ -1,0 +1,2 @@
+# JS-PRACTICE-Music-Playlist
+This is a project of my own imagination, in which I practiced some of the things I have learned in Javascript so far. It involves Objects, various types of Functions, & Loops. I created this repository simply to show the code I used to create the playlist, find its total length in minutes, find the average song length of the playlist, as well as to display the information of the shortest and the longest song in the playlist. As such, I have not implemented this into a published website.
