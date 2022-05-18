@@ -15,6 +15,7 @@ const PLAYLIST = {
   // DISPLAY PLAYLIST NAME:
   console.log(`Playlist Name: ${PLAYLIST.playlistName}`);
 
+  
 // NUMBER OF DIFFERENT ARTISTS:
 // Push all artist names into array:
 const ARTISTS = [];
