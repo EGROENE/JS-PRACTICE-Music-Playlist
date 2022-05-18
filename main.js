@@ -14,6 +14,18 @@ const PLAYLIST = {
   
   // DISPLAY PLAYLIST NAME:
   console.log(`Playlist Name: ${PLAYLIST.playlistName}`);
+
+// NUMBER OF DIFFERENT ARTISTS:
+// Push all artist names into array:
+const ARTISTS = [];
+for (let i = 0; i < PLAYLIST.songList.length; i++) {
+  ARTISTS.push(PLAYLIST.songList[i].artistName);
+}
+console.log(ARTISTS);
+
+// Put each existing artist name into new array only once, then display length of array:
+const INDIVIDUAL_ARTISTS = [...new Set(ARTISTS)];
+console.log('Total individual artists: ' + INDIVIDUAL_ARTISTS.length);
   
   
   // GET TOTAL LENGTH OF PLAYLIST:
